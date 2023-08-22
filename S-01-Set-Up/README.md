@@ -8,7 +8,44 @@
 
 * **[Install Docker](https://hub.docker.com/)**
 
+* Make a new directory
+
 ```shell
 mkdir render-prj
 ```
-* **[Install Django]()**
+* Create a virtual environment within this new directory 
+
+```shell
+python3 -m venv .venv
+```
+
+* Activate a new virtual environment called .venv
+```shell
+source .venv/bin/activate
+```
+
+* Install Django
+```shell
+python -m pip install django~=4.0.0
+```
+
+* Upgrade pip
+```shell
+python -m pip install --upgrade pip
+```
+
+* Create a new Django project called django-project
+```shell
+django-admin startproject django_project .
+```
+
+* Initialize the database
+```shell
+python manage.py migrate
+```
+
+* Start the local web server
+```shell
+python manage.py runserver
+```
+
