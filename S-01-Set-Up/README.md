@@ -49,3 +49,8 @@ python manage.py migrate
 python manage.py runserver
 ```
 
+* Django is running: Open the URL http://127.0.0.1:8000/ in your browser to view Django's welcome page
+
+![Sample output Set-Up](https://github.com/nihathalici/Deploying-a-Simple-Django-App-to-Render-A-Step-by-Step-Guide/blob/main/S-01-Set-Up/screenshots/setup-sample-screenshot.png)
+
+
