@@ -195,3 +195,7 @@ git remote -v
 * Click Advanced. Add Enviroment Variables DATABASE_URL, SECRET_KEY and PYTHON_VERSION
 
 * Click Create Web Service and grab a Coffee
+
+* RESULT: Failed!
+* Bit.io, the solution for database exists no more:
+* "The bit.io team has joined Databricks. We've sunset our database product."
