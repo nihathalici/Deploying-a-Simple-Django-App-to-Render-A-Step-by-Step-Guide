@@ -184,3 +184,14 @@ git remote add origin git@github.com:<your repo>
 git remote -v
 ```
 
+* Navigate to render.com. Login with your GitHub account.
+
+* Choose from your Dashboard New/Web Service.
+
+* Connect with your repo. Fill up the form.
+
+* Build Command must be ./setup.sh
+
+* Click Advanced. Add Enviroment Variables DATABASE_URL, SECRET_KEY and PYTHON_VERSION
+
+* Click Create Web Service and grab a Coffee
