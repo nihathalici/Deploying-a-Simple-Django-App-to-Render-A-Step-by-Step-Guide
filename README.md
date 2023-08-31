@@ -38,7 +38,7 @@ django-admin startproject django_project .
 
 * Create a new app called example
 ```shell
-django-admin startapp example
+python3 manage.py startapp example
 ```
 
 * Edit django_project/settings.py
